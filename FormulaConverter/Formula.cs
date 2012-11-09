@@ -11,6 +11,7 @@ namespace Formula
         public enum OperatorPriority
         {
             Low,
+            Medium,
             High
         }
 
@@ -50,15 +51,16 @@ namespace Formula
         {
             {"+", new Operator("+", OperatorPriority.Low)},
             {"-", new Operator("-", OperatorPriority.Low)},
-            {"*", new Operator("*", OperatorPriority.High)},
-            {"/", new Operator("/", OperatorPriority.High)}
+            {"*", new Operator("*", OperatorPriority.Medium)},
+            {"/", new Operator("/", OperatorPriority.Medium)},
+            {"^", new Operator("^", OperatorPriority.High)}
         };
 
         /// <summary>
         /// Converts infix formula notation to postfix notation
         /// </summary>
         /// <param name="mathString">String representation of mathematical formula 
-        /// (Allowed operations are +, -, *, /)</param>
+        /// (Allowed operations are +, -, *, /, ^)</param>
         /// <returns>String array of tokens in postfix notation</returns>
         public static string[] InfixToPostfix(string mathString)
         {
@@ -81,7 +83,7 @@ namespace Formula
                         }
                         while (
                             stackOperators.Count != 0 &&
-                            operatorTemp.Priority == stackOperators.Peek().Priority);
+                            operatorTemp.Priority <= stackOperators.Peek().Priority);
 
                         stackOperators.Push(operatorTemp);
 
