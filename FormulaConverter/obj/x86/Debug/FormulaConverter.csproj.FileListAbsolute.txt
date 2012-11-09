@@ -1,0 +1,9 @@
+C:\Documents and Settings\Administrator\Converter-InfixToPostfixNotation\FormulaConverter\bin\Debug\FormulaConverter.exe
+C:\Documents and Settings\Administrator\Converter-InfixToPostfixNotation\FormulaConverter\bin\Debug\FormulaConverter.pdb
+C:\Documents and Settings\Administrator\Converter-InfixToPostfixNotation\FormulaConverter\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Converter-InfixToPostfixNotation\FormulaConverter\obj\x86\Debug\Formula.Form1.resources
+C:\Documents and Settings\Administrator\Converter-InfixToPostfixNotation\FormulaConverter\obj\x86\Debug\Formula.Properties.Resources.resources
+C:\Documents and Settings\Administrator\Converter-InfixToPostfixNotation\FormulaConverter\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\Converter-InfixToPostfixNotation\FormulaConverter\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\Converter-InfixToPostfixNotation\FormulaConverter\obj\x86\Debug\FormulaConverter.exe
+C:\Documents and Settings\Administrator\Converter-InfixToPostfixNotation\FormulaConverter\obj\x86\Debug\FormulaConverter.pdb
